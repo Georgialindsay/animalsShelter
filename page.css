@@ -1,0 +1,103 @@
+html { scroll-behavior: smooth;}
+
+
+
+#home {
+
+     text-align: center;
+     color: white;
+    height: 750px;
+
+
+     }
+
+body {
+     margin: 0;
+     padding: 0;
+     }
+
+
+     #navbar  {
+       overflow: hidden;
+       background-color: rgba(105,105,105,0.85);
+
+
+     }
+
+     #navbar a{
+       float: left;
+       display: block;
+
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-family: 'Noto Sans', sans-serif;
+       font-size: 17px;
+     }
+
+
+
+     #navbar a:focus {
+
+       color: rgba(255,105,180);
+     }
+
+     #navbar a:hover {
+
+       color: rgba(255,105,180);
+     }
+
+
+     .sticky {
+       position: fixed;
+       top: 0;
+       width: 100%;
+     }
+
+     .sticky + .content {
+       padding-top: 60px;
+     }
+
+
+
+     .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container .btn {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+font-family:'Noto Sans', sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.container .btn:hover {opacity: 0.7}
+
+a {
+    color: white;
+    text-decoration: none;
+}

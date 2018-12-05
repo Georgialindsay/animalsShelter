@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <link rel="stylesheet" type="text/css" href="animal.css">
+        <title>Southampton Animal Rescue Centre</title>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<body>
+  <header>
+
+<div id="navbar">
+  <a href="#home">HOME</a>
+  <a href="#page1" >ABOUT US</a>
+  <a href="#page2">ADOPT AN ANIMAL</a>
+  <a href="#page3">DONATE</a>
+  <a class="title" style="float:right" href="page.html">SOUTHAMPTON ANIMAL RESCUE CENTRE</a></li>
+</div>
+
+ <div class="main" id="home">
+   <img src="dog.jpg" alt="dogs" style="width:100%">
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+  </header>
+
+<br>
+<br>
+<br>
+<br>
+           <div class="main" id="page1">
+             <a id="ABOUT US" class="smooth"></a>
+             <h1>ABOUT US</h1>
+             <br>
+             <br>
+
+             <h2>History</h2>
+             <p> Southampton Animal Resue Centre (SARC) was founded in 2005, by Robert G. Levinson. His goal was to rescue as many unwanted animals as possible around the Southampton area,
+             and give them a safe place to live until their forever home was found. Today, over 500 animals are handed in to SARC every year, from tiny puppies to giant horses. If you are
+             looking for a furry friend to complete your family, then look no further than the Southampton Animal Rescue Centre, to give a loving pet a second chance at a happy life.</p>
+             <br>
+             <br>
+             <h2>Our Mission</h2>
+             <p> Our mission at the SARC is to ensure that as many unwanted animals are taken care of as possible, and that we are able to re-home them as fast as we can. We beleive that every
+               animal deserves to fulfill a happy life, not only by being adopted, but through the care we give them at the SARC before they find their forever home. This care includes: seeing to
+               any medical needs, providing warm blankets and plenty of meals, and daily walks and play time. By interacting with our team, it also helps the animals to gain better people skills,
+               to ensure they're ready for their new life once adopted!
+
+           </div>
+
+
+           <div class="main" id="page2">
+             <br>
+             <br>
+             <a id="ADOPT AN ANIMAL" class="smooth"></a>
+             <h1>ADOPT AN ANIMAL</h1>
+             <br>
+             <br>
+
+             <h2>Dogs</h2>
+
+          <p> We have hundreds of lovely dogs, big and small, at the SARC waiting for a loving home! Check out some of our dog's profiles below,
+          and visit them at our centre today! </p>
+
+          <div class="row">
+<div class="column">
+ <img src="dog3.jpg" alt="Dog 1" style="width:100%">
+ <div class="desc">Paddington</div>
+</div>
+
+<div class="column">
+ <img src="dog1.jpg" alt="Dog 2" style="width:100%">
+ <div class="desc">Charlie</div>
+</div>
+<div class="column">
+ <img src="dog5.jpg" alt="Dog 3" style="width:100%">
+ <div class="desc">Miffy</div>
+</div>
+</div>
+<br>
+
+
+
+           <h2>Cats</h2>
+            <p> We also have a large number of friendly cats at the SARC waiting for a loving home! Check out some of our cats's profiles below,
+            and visit them at our centre today! </p>
+
+            <div class="row">
+            <div class="column">
+            <img src="cat2.jpg" alt="Cat 1" style="width:100%">
+            <div class="desc">Harry</div>
+            </div>
+            <div class="column">
+            <img src="cat1.jpg" alt="Cat 2" style="width:100%">
+            <div class="desc">Florence</div>
+            </div>
+            <div class="column">
+            <img src="cat3.jpg" alt="Cat 3" style="width:100%">
+            <div class="desc">Mabel</div>
+            </div>
+            </div>
+            <br>
+
+<br>
+
+            <h2>Other Animals</h2>
+            <p> As well as our popular cats and dogs, we also have a small number of little pets, from rabbits to birds. Check out some of our animal's profiles below,
+            and visit them at our centre today! </p>
+            <div class="row">
+            <div class="column">
+            <img src="animal2.jpg" alt="Animal 1" style="width:100%">
+            <div class="desc">Ruby</div>
+            </div>
+            <div class="column">
+            <img src="animal1.jpg" alt="Animal 2" style="width:100%">
+            <div class="desc">Polly</div>
+            </div>
+            <div class="column">
+            <img src="animal3.jpg" alt="Animal 3" style="width:100%">
+            <div class="desc">Lettuce</div>
+            </div>
+            </div>
+            <br>
+           </div>
+
+
+           <div class="main" id="page3">
+             <a id="DONATE" class="smooth"></a>
+             <h1>DONATE</h1>
+             <br>
+
+             <p> Every year hundreds of animals are handed into the Southampton Animal Rescue Centre, with some even needing medical help. With more animals entering everyday, we
+               struggle to afford the equipment and food needed to provide a healthy life for the animals, whilst they're staying with us. Your generous donations will help to buy
+              vital pieces for the animals, from warm blankets in the winter, to plenty of food to keep them strong. If you wish to donate, please click the
+              link below. </p>
+
+  <br>
+  <br>
+<br>
+              <h2> All donations, big and small are very welcome at the
+            SARC. Thank you for your generosity!  </h2>
+
+<br>
+<br>
+            <button class="button">DONATE NOW</button>
+<br>
+           </div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+</script>

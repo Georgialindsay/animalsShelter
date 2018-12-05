@@ -1,0 +1,174 @@
+html { scroll-behavior: smooth;}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  ;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 0px;
+;
+
+}
+
+
+#home {
+
+     text-align: center;
+     color: white;
+    height: 750px;
+
+
+     }
+
+body {
+     margin: 0;
+     padding: 0;
+     }
+
+
+     #navbar  {
+       overflow: hidden;
+       background-color: rgba(105,105,105,0.85);
+
+
+     }
+
+     #navbar a{
+       float: left;
+       display: block;
+
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-family: 'Noto Sans', sans-serif;
+       font-size: 17px;
+     }
+
+
+
+     #navbar a:focus {
+
+       color: rgba(255,105,180);
+     }
+
+     #navbar a:hover {
+
+       color: rgba(255,105,180);
+     }
+
+
+
+     button.selected{
+       color:red;
+     }
+
+
+     .sticky {
+       position: fixed;
+       top: 0;
+       width: 100%;
+     }
+
+     .sticky + .content {
+       padding-top: 60px;
+     }
+
+#page1 {
+  color: white;
+  background-color:#FFC63F;
+  padding: 70px;
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+
+}
+
+#page1 h1  {
+  color: white;}
+  #page1 h2  {
+    color: white;}
+
+#page2 {
+  color: rgb(0,139,139);
+  background:white;
+  padding: 50px;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;}
+
+  #page2 p{
+    color: black;
+    background:white;
+    padding: 50px;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    text-align:center;
+
+}
+
+#page2 h2 {
+  font-size: 25px;
+}
+
+#page3 {
+  color: white;
+  background:lightpink;
+  padding: 60px;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+}
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+      transition: 0.3s;
+      display:block;
+      margin:0 auto;
+    font-size: 16px;
+    cursor: pointer;
+border-radius: 12px;}
+
+.button:hover {opacity: 0.6}
+
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {border-radius: 12px;}
+
+img:hover {opacity: 0.6}
+
+header img:hover {opacity: 1}
+
+
+header img {border-radius: 0px;}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(139,0,139);
+    font-size: 20px;
